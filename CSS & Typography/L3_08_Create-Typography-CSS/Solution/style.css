@@ -1,0 +1,44 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+}
+
+table thead{
+    background-color: lightgray;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: rgb(229, 229, 229);
+}
+
+table tr, table td, table th {
+    border: 1px solid lightgray;
+}
+table td, table th {
+    text-align: left;
+    width: 15em;
+}
+
+blockquote {
+    border-left: 4px solid lightgray; 
+    font-style: italic;
+}
+
+.p {
+    padding-left: 1.4em;
+}
+
+#author{
+   text-align: right;
+}
+
