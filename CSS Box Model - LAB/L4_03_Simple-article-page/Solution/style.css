@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.page-content {
+    max-width: 51em;
+    padding: 0.5em 9em;
+}
+
+.page-content img{
+    max-width: 63%;
+    height: auto;
+}

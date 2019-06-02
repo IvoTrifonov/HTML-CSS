@@ -1,0 +1,16 @@
+.gallery {
+    background-color:  rgb(238, 238, 238);
+} 
+
+.gallery {
+    max-width: 62%;
+}
+
+.gallery li {
+    border: 0.4rem solid black;
+    list-style-type: none;
+    margin: 3.3em 0.5em;
+    max-width: 100%;
+    padding: 0.6em;
+    display: inline-block;
+}

@@ -1,0 +1,8 @@
+.text-box {
+    background-color: rgb(64, 224, 208);
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 0.8em;   
+    padding: 1em;
+    margin: auto;
+}
