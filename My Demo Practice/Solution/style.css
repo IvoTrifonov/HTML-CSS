@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700|Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "PT sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PT serif", serif;
+    padding-bottom: 0.8em;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {font-size: 2.4rem;}
+h2 {font-size: 2.0rem;}
+h3 {font-size: 1.8rem;}
+h4 {font-size: 1.6rem;}
+h5 {font-size: 1.4rem;}
+h6 {font-size: 1.2rem;}
+
+.site-header {
+    background-color: rgb(241, 245, 248);
+    padding-left: 0.5rem; 
+}
+
+.site-header nav{
+    display: inline-block;
+    padding: 0.3rem 0rem;
+    position: relative;
+    bottom: 5px;
+}
+
+.site-header ul li:not(:last-child) {
+    margin-right: 0.7rem; 
+}
+
+.site-header nav ul li a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 127, 80);
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.4em;
+}
+
+.site-header ul li a:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f015";
+    font-weight: 800;
+    padding-right: 0.3rem; 
+}
+
+.site-header ul li:nth-child(2) > a::before {
+    content: "\f2bb";
+}
+
+.site-header ul li:nth-child(3) > a::before {
+    content: "\f2b9";
+}
+
+.site-header ul li:nth-child(4) > a::before {
+    content: "\f249";
+}
+
+.site-header ul li:nth-child(5) > a::before {
+    content: "\f015";
+}
+
+.header-title {
+    font-family: 'Pacifico', serif;
+    font-size: 30px;
+    display: inline-block;
+    color: rgb(255, 127, 80);
+    width: 760px;
+}
+
+main > section {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.main-image {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url("../Requirements-and-Resources/img/brooke-lark.jpg");  
+    padding: 12rem 0;
+    background-size: cover; 
+    color: rgb(250, 250, 250);
+}
+
+.main-image h1, .main-image p{
+    letter-spacing: 2px;
+    width: 45%;
+    margin: 0 auto;
+    text-shadow: 2px 2px 2px rgba(38,16, 10, 0.81);
+}
+
+.read-more {
+    background-color: rgb(255, 127, 80);
+}
+
+.read-more h2 {
+    margin: 0 auto;
+    color: rgb(250, 250, 250);
+    text-transform: uppercase;
+    font-weight: 660;
+    padding-bottom: 0.1rem; 
+}
+
+.read-more  p {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    color: rgb(250, 250, 250);
+    font-size: 1.1em;
+}
+
+.read-more > p a {
+    font-size: 0.9rem;
+    background-color: rgb(250, 250, 250);
+    color: rgb(255, 127, 80);
+    font-weight: 600;
+    padding: 0.4rem;
+    border-radius: 0.6rem; 
+    border: solid 2px rgb(250, 250, 250);
+}
+
+.read-more p a:hover {
+    color: rgb(250, 250, 250);
+    background-color: transparent;
+    border: solid 2px rgb(250, 250, 250);
+}
+
+.how-it-works {
+    width: 71%;
+    margin: 0 auto;
+}
+
+.how-it-works li {
+    width: 30%;
+    vertical-align: top;
+}
+
+.how-it-works ul li:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.how-it-works li img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 0.2rem;
+}
+
+.gallery {
+    background-color: rgba(255, 127, 80, 0.15);
+}
+
+.gallery li {
+    width: 370px;
+    border: 4px solid rgb(0,0,0);
+    padding: 0.7rem;
+    margin: 0.5rem;
+    vertical-align: middle;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.site-footer {
+    background: rgb(255, 127, 80);
+    color: rgb(250, 250, 250);
+    text-align: center;
+}
+
+.site-footer ul,
+.site-footer p
+{
+    display: inline-block;
+    padding: 0.4rem 0;
+}
+
+.site-footer p {
+    padding-right: 5rem; 
+}
+
+.site-footer li {
+    border: 1px solid rgb(250, 250, 250); 
+    border-radius: 50%;
+}
+
+.site-footer li a:after {
+    display: inline-block;
+    content: "\f09a";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    color: rgb(250, 250, 250); 
+    width: 25px;
+}
+
+.site-footer li:nth-child(2) > a::after {
+    content: "\f099";
+}
+
+.site-footer li:nth-child(3) > a::after {
+    content: "\f09b";
+}
