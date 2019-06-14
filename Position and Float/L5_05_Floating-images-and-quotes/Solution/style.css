@@ -1,0 +1,75 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    width: 65.5%;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 1rem;
+}
+
+h1, h2, blockquote {
+    font-family: Georgia, serif;
+}
+
+main {
+    clear: both;
+}
+
+main section img {
+    padding: 0.5rem;
+    border: 2px solid #000;
+    margin-bottom: 1rem;
+}
+
+main section > .first-img {
+    float: right;
+    margin-left: 1rem;
+}
+
+section > p {
+    padding: 1rem 0;
+}
+
+section {
+    margin-bottom: 1.7rem;
+}
+
+main .site-section-2 > :nth-child(4) {
+    display: inline-block;
+    padding: 0;
+    width: 53%;
+    border-right: 4px solid #DDDDDD;
+    padding-right: 1rem;
+}
+
+blockquote {
+    float: right;
+    width: 40%;
+    font-style: italic;
+}
+
+blockquote .author {
+    margin-top: 2rem;
+    text-align: right;
+}
+
+main section .second-img {
+    float: left;
+    margin-right: 1rem;
+}
+

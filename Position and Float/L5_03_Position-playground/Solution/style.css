@@ -1,0 +1,39 @@
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+
+.viewport {
+    position: relative;
+    height: 110vh;
+}
+
+.vp-top {
+    background-image: linear-gradient(to left, #43cea2, #00b5b3, #0099bb, #007ab4, #185a9d);
+}
+
+.vp-bottom {
+    background-image: linear-gradient(to left, #d38312, #db6532, #d6494c, #c53764, #a83279);
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c1";
+    font-weight: 900;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    left: 95%;
+    bottom: 3%;
+    z-index: 100;
+}
+
+.card-bottom:after {
+    content: "\f005";
+}
+
+
+

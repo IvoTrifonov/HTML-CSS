@@ -1,0 +1,71 @@
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+
+.social-icons, 
+.social-icons li,
+.social-icons li a {
+    display: inline-block;
+}
+
+.social-icons li a {
+    margin: 0.4rem;
+    background: #EEEEEE;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.social-icons li a {
+    text-decoration: none;
+}
+
+.social-icons li {
+   list-style: none;
+}
+
+.social-icons li a:after {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f082";
+    font-weight: 800;
+    margin-left: 0.84rem;
+    position: relative;
+    top: 0.8rem;
+    color: #262626;
+}
+
+.social-icons li:nth-child(2) > a:after {
+    content: "\f099";
+}
+
+.social-icons li:nth-child(3) > a:after {
+    content: "\f2b3";
+}
+
+.social-icons li:nth-child(4) > a:after {
+    content: "\f08c";
+}
+
+.social-icons li:nth-child(5) > a:after {
+    content: "\f16d";
+}
+
+.social-icons li:nth-child(1):hover > a:after {
+    color: #3B5998;
+}
+
+.social-icons li:nth-child(2):hover > a:after {
+    color: #00ACED;
+}
+
+.social-icons li:nth-child(3):hover > a:after {
+    color: #DD4B39;
+}
+
+.social-icons li:nth-child(4):hover > a:after {
+    color: #007BB6;
+}
+
+.social-icons li:nth-child(5):hover > a:after {
+    color: #5483A8;
+}
+
+

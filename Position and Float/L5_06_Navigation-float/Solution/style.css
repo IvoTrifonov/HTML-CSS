@@ -1,0 +1,119 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+body {
+    width: 72%;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238); 
+}
+
+.site-aside {
+    float: right;
+    padding-right: 2rem; 
+}
+
+.site-aside ul {
+    padding-bottom: 1rem;
+}
+
+.site-aside ul li {
+    list-style-type: square;
+}
+
+.site-aside ul li a ,
+.site-nav ul li a
+{
+    text-decoration: none;
+    color: green;
+}
+
+.site-nav {
+    position: absolute;
+    padding-top: 0.6rem; 
+}
+
+.site-nav, .site-nav  ul li {
+    display: inline-block;
+    left: 68%;
+}
+
+.site-nav ul li a {
+    padding: 0 0.65rem;
+}
+
+header {
+    border-bottom: 2px solid #000;
+    margin-bottom: 1rem;
+}
+
+header .site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-block-end: 1rem;
+}
+
+main {
+    width: 80%;
+}
+
+main article img {
+    padding: 0.5rem;
+    border: 2px solid #000;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0,0,0,0.25);
+}
+
+main article > .first-img {
+    float: right;
+    margin-left: 1rem;
+}
+
+article > p {
+    padding: 1rem 0;
+}
+
+article {
+    margin-bottom: 1.7rem;
+}
+
+main .site-article-2 > :nth-child(4) {
+    display: inline-block;
+    padding: 0;
+    width: 53%;
+    border-right: 4px solid #DDDDDD;
+    padding-right: 1rem;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    float: right;
+    width: 40%;
+    font-style: italic;
+}
+
+blockquote .author {
+    margin-top: 2rem;
+    text-align: right;
+}
+
+main article .second-img {
+    float: left;
+    margin-right: 1rem;
+}
+

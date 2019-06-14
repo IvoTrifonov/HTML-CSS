@@ -1,0 +1,46 @@
+body {
+    background: rgb(238, 238, 238);
+}
+
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.15);
+    position: relative;
+    height: 520px;
+    width: 500px;
+}
+
+.img-container img{
+    position: absolute;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.description-container {
+    position: absolute;
+    bottom: 0;
+    padding: 1.2rem;
+}
+
+.button {
+    text-align: right;
+}
+
+.button > a {
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+    background: rgb(0, 153, 0);
+}
+
+
+
