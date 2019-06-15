@@ -1,0 +1,29 @@
+body {
+    font-size: 20px;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+.fixed {
+    background: aqua;
+    padding: 2rem;
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    opacity: 0.5;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.sticky {
+    background: yellowgreen;
+    color: white;
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+}

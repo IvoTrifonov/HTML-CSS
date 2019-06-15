@@ -1,0 +1,110 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 "Arial", sans-serif;
+}
+
+body {
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.personal-card {
+    background-image: linear-gradient(to bottom, #183a6b, #00405b, #003f42, #243b31, #33362e);
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 3rem; 
+    position: relative;
+}
+
+.personal-info img {
+    width: 150px;
+    height: auto;
+    transform: rotate(-12deg);  
+}
+
+.color-box > p {
+    width: 20%;
+    height: 0.2rem;
+    float: left;
+    margin-top: 1.5rem;
+}
+
+.color-box.bottom > p {
+    margin: 0;
+}
+
+.color-box.with-content {
+    margin-bottom: 2rem;  
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+.color-box.with-content > p {
+    height: auto;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.7rem 0;
+}
+
+.color-box.with-content img {
+    width: 85px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.color-box.with-content > .yellow {
+    position: relative;
+}
+
+.yellow {
+    background: #FFFF00;
+    color: #FFFF00;
+}
+
+.yellow-green {
+    background: #ADFF2F;
+}
+
+.green {
+    background: #008000;
+}
+
+.orange {
+    background: #FFA500;
+}
+
+.red {
+    background: #FF0000;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ADFF2F;
+}
+
+.personal-info {
+    padding: 5rem 4rem 6rem 4rem;
+}
+
+.personal-content {
+    float: right;
+    width: 50%; 
+    text-align: right;
+}

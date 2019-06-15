@@ -1,0 +1,47 @@
+.container {
+    background: aqua;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+    position: relative;
+}
+
+.box {
+    background: yellow;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+}
+
+.tr {
+    right: 0;
+}
+
+.tl {
+    left: 0;
+}
+
+.br {
+    bottom: 0;
+    right: 0;
+}
+
+.bl {
+    bottom: 0;
+}
+
+.cc {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-box {
+    width: 60px;
+    height: 60px;
+    background: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
