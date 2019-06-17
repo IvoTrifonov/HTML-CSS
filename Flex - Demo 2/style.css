@@ -1,0 +1,83 @@
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 Verdana, sans-serif;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0.5rem;
+}
+
+.site {
+    max-width: 60rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-header h1 {
+    padding: 0 1rem;
+    font-size: 2.4rem;
+}
+
+.site-header,
+.site-footer {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin-bottom: 1em; 
+}
+
+.site-header nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.site-header nav * {
+    display: inherit;
+}
+
+.site-header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-header nav li {
+    list-style: none outside;
+}
+
+.site-header nav a {
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.site-header nav a:hover {
+    background: red;
+}
+
+.site-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.site-footer {
+    padding: 0.5rem;
+    margin-top: auto;
+}
+
+.site-footer p {
+    margin: 0 auto;
+}
+
+

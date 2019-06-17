@@ -1,0 +1,85 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+.vplayer {  
+    width: 100%;
+    flex: 1 0 100%;
+    border-radius: 0.3em;
+    overflow: hidden;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.vplayer-screen {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+}
+
+.vplayer-screen:before {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+    
+}
+
+.vplayer-controls {
+    background: #999;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+}
+
+.vplayer-controls .track {
+   height: 0.3em;
+   background: #000;
+   flex: 1 0 auto;
+   margin: 0 1rem;
+   position: relative;
+}
+
+.vplayer-controls .track .head {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.vplayer-controls button {
+    background: none;
+    border: none;
+    padding: 0.5em;
+    font-size: 1.3em;
+    cursor: pointer;
+    border-radius: 0.3em;
+    outline: none;
+}
+
+.vplayer-controls button:hover{
+    background: red;
+}
+
+
+
+
+.vplayer-controls button:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f04a";
+    font-weight: 800;
+}
+
+.vplayer-controls button:nth-child(2):before {
+    content: "\f04b";
+}
+
+
+.vplayer-controls button:nth-child(3):before {
+    content: "\f04e";
+}
+
+.vplayer-controls button:last-child:before {
+    content: "\f013";
+}
