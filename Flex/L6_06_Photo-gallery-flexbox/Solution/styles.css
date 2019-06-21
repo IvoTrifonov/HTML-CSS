@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+ul,
+li {
+    display: flex;
+}
+
+.gallery {
+    padding: 2rem;
+}
+
+.gallery ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: outside none;
+    
+}
+
+.gallery li {
+    display: block;
+    flex: 0 0 31%;
+    margin-bottom: 2%;
+    border: 0.5rem solid #000; 
+    padding: 4% 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5%;
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery img::before {
+    display: block;
+    content: '';
+    padding-top: 177.77%;
+}
+
+
+

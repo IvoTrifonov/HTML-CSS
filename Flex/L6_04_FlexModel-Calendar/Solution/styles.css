@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 65vw;
+    margin:0 auto;
+    padding: 2rem;
+}
+
+.week,
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.week span,
+.reminders,
+.notes span {
+    padding: 1rem 1rem 2.5rem 1rem;
+    border: 1px solid black;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.week span:first-child,
+.week span:nth-child(7) {
+    flex-basis: 100%;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+.notes span:nth-child(2){
+    padding: 0.3rem;
+}
+ 
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+h1, h2, p {
+    padding: 0.6rem;
+} 
+
+body {
+    margin: 0 auto;
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(238, 238, 238);
+}
+
+header {
+    border-bottom: 2px solid black; 
+}
+
+h1 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main,
+footer {
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+}
+

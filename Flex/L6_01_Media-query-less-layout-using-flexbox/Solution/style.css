@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #EEEEEE;
+    width: 60rem;
+    margin: 0 auto;
+}
+
+header,
+footer,
+main,
+aside {
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: 1.2rem;
+    background: #FFFFFF;
+    box-shadow:  0 0 6px gray;
+}
+
+header {
+    flex: 1 1 10rem;
+}
+
+footer {
+    flex: 1 1 8rem;
+}
+
+.content {
+    display: flex;
+    height: 20rem;
+}
+
+.content main {
+    flex: 1 1 60%;
+}
+
+.content aside {
+    flex: 1 1 40%;
+}

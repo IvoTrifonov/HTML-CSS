@@ -1,0 +1,130 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 Georgia, serif;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    padding: 0.5rem;   
+}
+
+h2 {
+    padding: 1.5rem 0.3rem;
+}
+
+.cards-layout {
+    max-width: 60rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 3rem 0;
+}
+
+.cards-list.layout-flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards-list.layout-flexbox:before,
+.cards-list.layout-flexbox:after {
+    display: block;
+    content: '';
+    order: 1000;
+}
+
+.cards-list.layout-flexbox:before,
+.cards-list.layout-flexbox:after,
+.cards-list.layout-flexbox .card {
+    flex: 0 0 31%;
+}
+
+.cards-list.layout-flexbox .card {
+    display: flex;
+}
+
+.cards-list.layout-flexbox .card-media:before {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.cards-list.layout-flexbox .card-media:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.cards-list.layout-flexbox .card-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cards-list.layout-masonry {
+    column-count: 3;
+    column-gap: 1em;
+}
+
+.cards-list.layout-masonry .card {
+    display: inline-block;
+    break-inside: avoid;
+}
+
+.cards-list.layout-masonry .card-media:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.cards-list.layout-masonry .card-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card {
+    background: #FFF;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 10px gray;
+    margin-bottom: 3%;
+    overflow: hidden;
+}
+
+
+.card .inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-media {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-content {
+    padding: 1rem 1.5em;
+    padding-bottom: 1.5em;
+    flex-grow: 1;
+}
+
+.card-footer {
+    padding: 1.5rem;
+    border-top: 1px solid #000;
+}
+
+
+

@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+h1 { padding: 1.5rem 0; }
+
+h2 { padding-top: 1.5rem; }
+
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    padding: 0.8rem 0;
+}
+
+header,
+.nav {
+    display: flex; 
+    align-items: center;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    justify-content: space-between;
+}
+
+.nav li {
+    list-style-type: none;
+    padding: 0.4rem;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+
