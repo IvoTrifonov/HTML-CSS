@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right top, #03d8de, #00caee, #00bafc, #00a6ff, #008fff, #4d82ff, #7b72ff, #a35bf8, #b852fc, #ce46ff, #e433ff, #fa02ff);
+    height: 100vh;
+}
+
+fieldset {
+    border:none;
+    background: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 28rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+fieldset,
+.social-medias > p,
+#username,
+#password,
+.sign-in {
+    border-radius: 0.3rem;
+}
+
+.form-title {
+    color: #555555;
+    text-align: center;
+    margin-top: 2rem; 
+}
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+    margin: 2.2rem 0;
+}
+
+.social-medias > p { padding: 0.7rem 1rem; }
+
+.social-medias i { margin-right: 0.5rem; }
+
+.social-medias > p:first-child {
+    background: #3B5998;
+    color: #ffffff;
+    margin-right: 1rem; 
+}
+
+.social-medias > p:last-child {
+    box-shadow: 0 0 4px #5e5e5e;
+}
+
+.social-medias > p:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #03d8de, #00caee, #00bafc, #00a6ff, #008fff, #4d82ff, #7b72ff, #a35bf8, #b852fc, #ce46ff, #e433ff, #fa02ff);
+}
+
+label {
+    font-size: .8rem;
+    color: #555555;
+}
+
+#username,
+#password {
+    background: #F7F7F7;
+    padding: 0.6rem 0.4rem;
+    border: none;
+    outline: none;
+    margin: 0.2rem 0 1.2rem 0; 
+    overflow: hidden;
+    border: 1.5px solid transparent
+}
+
+#username:focus,
+#password:focus { border-color:#FA02FF; }
+
+.sign-in {
+    border: none;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem; 
+    background: #333333;
+    color: #FFFFFF;
+}
+
+.sign-in:hover { cursor: pointer; }
